@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubg"
+    android:orientation="vertical"
+
+    tools:context=".start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="45dp">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="579dp"
+            android:layout_height="6dp"
+            android:layout_weight="1"
+            android:text="Food Items"
+            android:textAlignment="center"
+            android:textColor="#FFFF"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+
+        android:weightSum="2"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="Meals(50 rs)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Mealsbutton"
+            android:layout_width="197dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#FFFF"
+            android:onClick="add_to_list"
+            android:text="Add"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp">
+        android:weightSum="2"
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="Fried rice(40 rs)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Friedricebutton"
+            android:layout_width="197dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#FFFF"
+            android:onClick="add_to_list"
+            android:text="Add"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:text="Briyani(60 rs)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="197dp"
+            android:layout_height="60dp"
+            android:onClick="add_to_list"
+            android:id="@+id/Briyanibutton"
+            android:background="#FFFF"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:text="Add"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:text="Lemon rice(30 rs)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="197dp"
+            android:layout_height="60dp"
+            android:onClick="add_to_list"
+            android:id="@+id/Lemonricebutton"
+            android:background="#FFFF"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:text="Add"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:text="Veg noodles(45 rs)"
+            android:textAlignment="center"
+
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Vegnoodlesbutton"
+            android:layout_width="197dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="#FFFF"
+            android:onClick="add_to_list"
+            android:text="Add"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:text="Chapathi(15 rs)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="197dp"
+            android:layout_height="60dp"
+            android:onClick="add_to_list"
+            android:id="@+id/Chapathibutton"
+            android:background="#FFFF"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            android:text="Add"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+
+            android:text="Dosa(35 rs)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="197dp"
+            android:layout_height="60dp"
+            android:onClick="add_to_list"
+            android:background="#FFFF"
+            android:textColor="#000000"
+            android:id="@+id/Dosabutton"
+            android:layout_weight="1"
+            android:text="Add"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:baselineAligned="false"
+        android:onClick="placeorder"
+        android:text="PLACE ORDER"
+        android:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp">
+
+    </LinearLayout>
+
+</LinearLayout>
